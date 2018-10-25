@@ -1,0 +1,98 @@
+
+body{ 
+background-color: #C2E95A;	
+}
+#container{
+	background-color:antiquewhite;
+	width:75vw;
+	margin: 0 auto;
+}
+.intro{
+	width: 25vw;
+	margin: 0 auto;
+	border-left-style: solid;
+	padding-left: 3px;
+	background-color:antiquewhite;
+
+
+}
+.author{
+	margin: 0 auto;
+	width: 25vw;
+}
+.image{
+	max-width: 80%;
+}
+.text-body{
+	width: 40vw;
+	margin: 0 auto;
+}
+.list{
+	width: 30vw;
+	margin:0 auto;
+	border-left-style: solid;
+	padding-left: 1px;
+	background-color: #e6e6ff;
+}
+h4{
+	text-align:right;
+	font-size:25px;
+}
+ul{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+
+
+}
+h1{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+
+
+}
+p{
+line-height: 1.5;
+font-size: 25px
+}
+@media only screen and (max-width: 600px) {
+#container{
+	width:50vw;
+background-color: aquamarine;
+}
+.intro{
+	width: 20vw;
+	
+
+
+}
+.author{
+	
+	width: 20vw;
+	text-align: center;
+}
+.text-body{
+	width: 20vw;
+	
+}
+h1{ 
+	font-size: 18px;
+ }
+ h4{
+	text-align:left;
+	font-size:15px;
+}
+p{
+line-height: 1.5;
+font-size: 15px
+}
+
+}
+
+
+.image{
+	max-width: 40%;
+
+
+@charset "utf-8";
+/* CSS Document */
+
