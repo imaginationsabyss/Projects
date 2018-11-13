@@ -26,3 +26,11 @@ function mouseEvent() {
     });
 	object.ondblclick = function(){myScript};
 	object.onmouseover = function(){myScript};
+	
+	 $("#h5,p5").toggle(function () {
+        $(this).css("background-color", "blue");
+    }, function () {
+        $(this).css("background-color", "red");
+    }, function () {
+        $(this).css("background-color", "yellow");
+    });
