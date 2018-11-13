@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 Favorite comics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+	<div id="title" class="box">
+		<h1>Favorite comics</h1>
+	</div>
+	
+		<h2 class="p1">Marvel Zombies</h2>
+	<ul><li><h3 class="p2">Heavy Metal</h3></li></ul>
+		<h4 class="p3">Mad</h4>
+		<h5 class="p4">Fish police</h5>
+		<h5 class="p5">fluff my farytale</h5>
+
+
+<script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+	<script>
+	$("h2,p1").click(function(){
+	$(this).slideUp();
+	});
+	</script>
+	<script>
+$( "li" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( "li.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
+	
+</body>
+</html>
