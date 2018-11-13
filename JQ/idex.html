@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 Favorite comics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+	<div id="title" class="box">
+		<h1>Favorite comics</h1>
+	</div>
+	
+		<h2 class="p1">Marvel Zombies</h2>
+	<ul><li><h3 class="p2">Heavy Metal</h3></li></ul>
+	<p id="demo" onblclick="my function()">Double click me punk!<h4 class="p3">Mad</h4></P>
+		<h5 class="p4">Fish police</h5><img onMouseOver="normalImg(this)" border="0" src="img/fish_police1.jpg" alt="fish_police"width="32" height="32">
+		<h5 class="p5">fluff my farytale</h5>
+
+
+<script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+	<script>
+	$("h2,p1").click(function(){
+	$(this).slideUp();
+	});
+	</script>
+	<script>
+$( "li" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( "li.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
+	<script>
+function myFunction() {
+    document.getElementsByClassName("p4").innerHTML = "so thats how you want to be!";
+}
+</script>
+	<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+	<script>
+document.getElementsByClassName("p5").onmouseover = function() {mouseOver()};
+document.getElementsByClassName("p5").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+    document.getElementsByClassName("p5").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementsByClassName("p5").style.color = "black";
+}
+</script>
+	
+	
+</body>
+</html>
