@@ -12,8 +12,13 @@
 	
 		<h2 class="p1">Marvel Zombies</h2>
 	<ul><li><h3 class="p2">Heavy Metal</h3></li></ul>
+<<<<<<< HEAD
 		<h4 class="p3">Mad</h4>
 		<h5 class="p4">Fish police</h5>
+=======
+	<p id="demo" onblclick="my function()">Double click me punk!<h4 class="p3">Mad</h4></P>
+		<h5 class="p4">Fish police</h5><img onMouseOver="normalImg(this)" border="0" src="img/fish_police1.jpg" alt="fish_police"width="32" height="32">
+>>>>>>> e866e34d4d4e522430939c6cc4d05210057b9f40
 		<h5 class="p5">fluff my farytale</h5>
 
 
@@ -37,8 +42,48 @@ $( "li.fade" ).hover(function() {
   $( this ).fadeOut( 100 );
   $( this ).fadeIn( 500 );
 });
+<<<<<<< HEAD
 
 </script>
+=======
+</script>
+	<script>
+function myFunction() {
+    document.getElementsByClassName("p4").innerHTML = "so thats how you want to be!";
+}
+</script>
+	<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+	<script>
+document.getElementsByClassName("p5").onmouseover = function() {mouseOver()};
+document.getElementsByClassName("p5").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+    document.getElementsByClassName("p5").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementsByClassName("p5").style.color = "black";
+}
+</script>
+	<script>
+		    .p5(function() {
+        Put first event here
+    }, function() {
+        Put second event here
+    });
+	</script>
+	
+>>>>>>> e866e34d4d4e522430939c6cc4d05210057b9f40
 	
 </body>
 </html>

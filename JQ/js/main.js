@@ -23,4 +23,17 @@ function mouseEvent() {
     $('.h4, p3').mouseleave(function(){
         $('.h4, p3').removeClass('bgColor');
         console.log('mouse enter .square');
+<<<<<<< HEAD
+=======
+    });
+	object.ondblclick = function(){myScript};
+	object.onmouseover = function(){myScript};
+	
+	 $("#h5,p5").toggle(function () {
+        $(this).css("background-color", "blue");
+    }, function () {
+        $(this).css("background-color", "red");
+    }, function () {
+        $(this).css("background-color", "yellow");
+>>>>>>> e866e34d4d4e522430939c6cc4d05210057b9f40
     });

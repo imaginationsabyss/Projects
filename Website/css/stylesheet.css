@@ -1,5 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+@media only screen and (min-width: 2000px){
+>>>>>>> 3904eddaca2786d3eb5d8f6ab1676043fb1f37cf
+>>>>>>> e866e34d4d4e522430939c6cc4d05210057b9f40
 body{
 	background: #535151
 }
@@ -17,11 +24,164 @@ body{
 .bots{
 	position: relative;
 	margin:auto;
+<<<<<<< HEAD
 	width: 800px;
 	height: 600px;
+=======
+<<<<<<< HEAD
+	width: 800px;
+	height: 600px;
+=======
+	width: 600px;
+
+>>>>>>> e866e34d4d4e522430939c6cc4d05210057b9f40
+	
+}
+.contianter1{
+	width: 800px;
+	height: 1800px;
+<<<<<<< HEAD
+}
+=======
+}
+	.resize{
+		width:1000px;
+	}
+}
+@media only screen and (max-width: 2001px) {
+body{
+	background: #535151
+}
+.heading{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 1620px;
+	top:0%;
+	left: auto;
+}
+.about{
+	color: #FFFFFF
+}
+.bots{
+	position: relative;
+	margin:auto;
+	width: 600px;
+
+>>>>>>> 3904eddaca2786d3eb5d8f6ab1676043fb1f37cf
+	
+}
+.contianter1{
+	width: 800px;
+	height: 1800px;
+<<<<<<< HEAD
+}
+=======
+}
+	.resize{
+		width:700px;
+	}
+}	
+	
+}
+@media only screen and (max-width: 1024px) {
+	body{
+	background: #535151
+}
+.heading{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 1620px;
+	top:0%;
+	left: auto;
+}
+.about{
+	color: #FFFFFF
+}
+.bots{
+	position: relative;
+	margin:auto;
+	width: 600px;
+
 	
 }
 .contianter1{
 	width: 800px;
 	height: 1800px;
 }
+	.resize{
+		width:700px;
+	}
+}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	body{
+	background: #535151
+}
+.heading{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 1620px;
+	top:0%;
+	left: auto;
+}
+.about{
+	color: #FFFFFF
+}
+.bots{
+	position: relative;
+	margin:auto;
+	width: 600px;
+
+	
+}
+.contianter1{
+	width: 800px;
+	height: 1800px;
+}
+	.resize{
+		width:700px;
+	}
+}
+	
+}
+
+@media only screen and (max-width: 320px) {
+	
+	body{
+	background: #535151
+}
+.heading{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 1620px;
+	top:0%;
+	left: auto;
+}
+.about{
+	color: #FFFFFF
+}
+.bots{
+	position: relative;
+	margin:auto;
+	width: 600px;
+
+	
+}
+.contianter1{
+	width: 800px;
+	height: 1800px;
+}
+	.resize{
+		width:700px;
+	}
+}
+}
+
+>>>>>>> 3904eddaca2786d3eb5d8f6ab1676043fb1f37cf
+>>>>>>> e866e34d4d4e522430939c6cc4d05210057b9f40
