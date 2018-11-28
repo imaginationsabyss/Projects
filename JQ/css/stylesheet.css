@@ -1,5 +1,5 @@
 body {
-    background-color:#A0E57A;
+    background-color:#E1B297;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 	text-decoration-color: #0F0000;
     height:100px;
 	width:400px;
-    border-width:3px;
+    border-width:10px;
     border-radius:10px;
     background-color:red;
 	padding: 10px;
@@ -26,9 +26,9 @@ h1 {
 	text-decoration-color: #0F0000;
     height:100px;
 	width:400px;
-    border-width:3px;
+    border-width:10px;
     border-radius:10px;
-    background-color:red;
+    background-color:#D9D627;
 	padding: 10px;
 }
 
@@ -37,9 +37,9 @@ h1 {
 	text-decoration-color: #0F0000;
     height:100px;
 	width:400px;
-    border-width:3px;
+    border-width:10px;
     border-radius:10px;
-    background-color:red;
+    background-color:#432DB5;
 	padding: 10px;
 }
 
@@ -48,9 +48,9 @@ h1 {
 	text-decoration-color: #0F0000;
     height:100px;
 	width:400px;
-    border-width:3px;
+    border-width:10px;
     border-radius:10px;
-    background-color:red;
+    background-color:#693245;
 	padding: 10px;
 }
 
@@ -59,9 +59,9 @@ h1 {
 	text-decoration-color: #0F0000;
     height:100px;
 	width:400px;
-    border-width:3px;
+    border-width:10px;
     border-radius:10px;
-    background-color:red;
+    background-color:#9DF354;
 	padding: 10px;
 }
 
