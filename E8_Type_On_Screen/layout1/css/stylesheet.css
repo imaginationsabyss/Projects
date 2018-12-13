@@ -2,33 +2,40 @@
 /* CSS Document */
 p{
 text-indent: 2vw;
-margin-left: 10vw;
-margin-right: 10vw;
-font-size: 1vw;
+margin-left: 30vw;
+margin-right: 30vw;
+font-size: 2vw;
 }
 h1{
 text-align: center;
 letter-spacing: .5vw;
 font-size: 3vw;
 line-height: 1vw;
+color:#FF0004;
 }
 h2{
 text-align: center;
 font-size: 2vw;
 line-height: 1vw;
+color:turquoise;
 }
 h3{
 text-align: center;
 font-size: 1.5vw;
 line-height: 1vw;
+color: #FF0004;
 }
 h4{
 text-align: center;
 font-size: 1vw;
 line-height: 1vw;
+color:brown
 }
 h5{
-	text-align: right
-	font-size: .5vw;
+	text-align: left;
+	font-size: 1.4vw;
 	line-height: 1vw;
+}
+body{
+	background-color: #F0E891;
 }

@@ -3,41 +3,61 @@
 }
 
 h1{
-	font-family: 'Righteous', cursive;
-	padding-left: 100px;
+	font-family:"alex-brush";
+	padding-left: 22px;
+	font-size: 60px;
 }
 h3{
-	font-family: 'Righteous', cursive;
-	padding-left: 420px;
+	font-family:"alex-brush";
+	padding-left: 45vw;
 }
 h6{
-	font-family: 'Noto Serif JP', sans-serif;
+	font-family:"alex-brush";
 	text-align: center;
 }
 body{
-	background-color: #b726b0;
+	background-color: coral;
 }
-.subpoem{
-	font-family: 'Cinzel', serif;
-	text-align: right;
-	padding-right: 725px;
-	
-}
-.poem{
-	
-}
-.poems{
-	
-}
-p{
+.addressed{
+	font-family:"alex-brush"
 	text-align: left;
-	font-family: 'Cardo', serif;
+	padding-right:35vw;
+	padding-left: 45vw;
+	
+	
+}
+.to{
+font-family: "alex-brush";
+font-size: 6em;
+}
+.where{
+	font-family: "alex-brush";
+font-size: 1em;
+}
+.firstrow{
+	float: left;
+	text-align: justify;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	padding-left: 100px;
-	padding-right: 675px;
+	width:40vw;
 	padding-bottom: 10px;
 	text-indent: 35px;
 	margin-top: 5px;
 	margin-bottom: 0;
 	line-height: 25px;
 	letter-spacing: .5px;
+}
+.nextrow{
+	float: left;
+	text-align: justify;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-left: 100px;
+	width: 40vw;
+	padding-bottom: 10px;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+	
 }

@@ -1,9 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 
+div.title{
+	text-rot
+	line-height: 80px;
+	  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
 p{
 text-indent: 30px;
-margin-left: 200px;
 margin-right: 500px;
 color:#FF0004;
 font-family: 'Vollkorn', serif;
@@ -38,4 +47,48 @@ line-height: 10px
 }
 body{
   background-color:#76E27B
+}
+.one{
+	text-align: left;
+	margin-left: 2vw;
+	letter-spacing: 3px;
+}
+.two{
+	text-align: left;
+	margin-left: 4vw;
+	letter-spacing: 4px;
+}
+.three{
+	text-align: left;
+	margin-left: 6vw;
+	letter-spacing: 3px;
+}
+.four{
+	text-align: left;
+	margin-left: 8vw;
+	letter-spacing: 2px;
+}
+.five{
+	text-align: left;
+	margin-left: 6vw;
+	letter-spacing: 1px;
+}
+.six{
+	text-align: left;
+	margin-left: 4vw;
+	letter-spacing: 2px;
+}
+.seven{
+	text-align: left;
+	margin-left: 2vw;
+	letter-spacing: 3px;
+}
+.eight{
+	text-align: left;
+	margin-left: 1vw;
+	letter-spacing: 4px;
+}
+#bottom{
+	text-align: right;
+	padding-right: 25vw;
 }

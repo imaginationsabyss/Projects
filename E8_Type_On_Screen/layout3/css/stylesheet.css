@@ -2,29 +2,41 @@
 	box-sizing: border-box;
 	font-size: 15px;
 }
-
+img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 625px;
+	z-index: 1;
+}
 body {
 	margin: 0px;
 	padding: 0px;
-	padding-left: 27vw;
-	padding-right: 27vw;
+	padding-left: 51vw;
+	padding-right: 11vw;
 	background-color: white;
 }
-
+h4{
+	line-height: 30px;
+	text-decoration: underline;
+	font-size: 17px;
+}
 h1 {
-	/*margin-left: 0;*/
+	
 	margin-top: 100px;
 	margin-bottom: 0px;
 	font-size: 4.75em;
-	font-family:'Yellowtail', cursive;
-	text-align: center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: right;
+	line-height: 4px;
 }
 
 h3 {
-	font-family: 'Poiret One', cursive;
-	/*margin-left: 6vw;*/
+	font-family: ;
+	text-decoration: underline;
 	margin-top: -20px;
 	margin-bottom: 0px;
+	line-height: 25px;
 }
 
 p {
@@ -33,24 +45,24 @@ p {
 }
 
 .leftBar {
-	background-color: black;
+	background-color:#DB2CD7;
 	margin: 0px;
 	position: fixed;
 	left: 0;
 	top: 0;
 	height: 100vh;
-	width: 27vw;
+	width: 50vw;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
 .rightBar {
-	background-color: black;
+	background-color:#DD69E7;
 	margin: 0px;
 	position: fixed;
 	right: 0;
 	top: 0;
 	height: 100vh;
-	width: 27vw;
+	width: 10vw;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
@@ -69,6 +81,5 @@ p {
 	left: 27vw;
 	width: 46vw;
 	background-color: white;
-	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 1);
-	padding: 0px 123px 0px 123px;
+	padding: 20px 123px 30px 123px;
 }

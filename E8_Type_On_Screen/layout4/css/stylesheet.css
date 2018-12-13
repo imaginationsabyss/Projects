@@ -1,35 +1,35 @@
-*{
-	box-sizing: border-box;
-	font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
 
-}
 
-body {
-	margin: 0px;
-	padding: 0px;
-	padding-left: 27vw;
-	padding-right: 27vw;
-	background-color: white;
-	text-align: center;
-}
 
-h1 {
-	/*margin-left: 0;*/
-	margin-top: 100px;
+.side {
+
+	margin-top: 10vw;
 	margin-bottom: 0px;
-	font-size: 4.75em;
-	text-align: center;
+	font-size: 5em;
+	transform: rotate(-90deg);
+	float-left:
+	color: blue;
+}
+.counterside{
+	margin-top: 25vw;
+	font-size: 5em;
+	transform: rotate(180deg);
+	text-align: right;
 	color: red;
 }
-
 h3 {
-	/*margin-left: 6vw;*/
+	
 	margin-top: -20px;
 	margin-bottom: 0px;
 }
 
 p {
 	text-align: left;
-	margin: 40px;
+	margin: 10px;
+}
+.book{
+	  border: 1px solid black;
+  padding: 10px;
+  width: 35vw;
+  text-align: justify;
 }

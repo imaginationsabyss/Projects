@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+    margin: 0;
+}
+.red {
+    background-color: tomato;
+	float:left;
+}
+.container {
+    width: 10vw;
+}
+.header, .main {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 30px 0;
+	background-color: aqua
+}
+.logo, .nav, li {
+    float: left;
+	
+}
+ul {
+    margin: 0;
+}
+li {
+    padding: 0 25px;
+    list-style: none;
+	color: #FFF;
+background-color: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
+h4 {
+    margin: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+img{
+	float:left;
+	padding: 15px;
+}
+body{
+	background-color:#000000;
+}
