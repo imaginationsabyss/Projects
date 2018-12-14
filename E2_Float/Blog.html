@@ -3,111 +3,79 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
-<title>Boisvert - Blog Layout (With Header)</title>
-		
-		<style>
-			
-			*
-			{
-			box-sizing: border-box;
+<title>Blog layout</title>
+<style>
+*
+{
+box-sizing: border-box;
+			}
+body
+{
+background-color:white;
+margin: 2vh 25vw 2vh 2vw;
+			}
+div
+{
+float:left;
+			}
+.Divide
+{
+width:100vw;
+height: 10vh;
+background-color:white;
+}
+.post
+{
+width:100%;
+height: 400px;
+background-color: white;
+			}
+.mainBlock
+{
+width:75%;
+height:100%;
+background-color: white;
+			}			
+.maintext
+{
+width:50vw;
+height:30vw;
+background-color:#0700B5;
 			}
 			
-			body
-			{
-			margin: 2vh 25vw 2vh 2vw;
+.bottom
+{
+width:100%;
+height:10vw;
+background-color:hsla(242,100%,35%,1.00);
+margin: 20px 0px 0px 0px;
 			}
-			
-			div
-			{
-			float:left;
-			}
-			
-			.postDivide
-			{
-			width:100%;
-			height: 10vh;
-			background-color: white;
-			}
-			
-			.post
-			{
-			width:100%;
-			height: 400px;
-			background-color: white;
-			}
-			
-			.mainBlock
-			{
-			width:75%;
-			height:100%;
-			background-color: white;
-			}
-			
-			.topMain
-			{
-			width:100%;
-			height:80%;
-			background-color: #94DF95;
-			}
-			
-			.bottomMain
-			{
-			width:100%;
-			height:15%;
-			background-color: #94DF95;
-			margin: 20px 0px 0px 0px;
-			}
-			
-			.sideBlock
-			{
-			width:20%;
-			float: right;
-			height:50%;
-			background-color:#94DF95;
-			margin: 0px 0px 0px 20px;
-			}
-			
-		</style>
-		
-	</head>
-	
-	<body>
-		
-		<div name="header" style="width:100%; height:150px; background-color:#94DF95"></div>
-		
-		<div class="postDivide"></div>
-		
-		<div class="post">
-			
-			<div class="mainBlock">
-				
-				<div class="topMain"></div>
-				
-				<div class="bottomMain"></div>
-			
-			</div>
-			
-			<div class="sideBlock"></div>
-		
-		</div>
-		
-		<div class="postDivide"></div>
-		
-		<div class="post">
-			
-			<div class="mainBlock">
-				
-				<div class="topMain"></div>
-				
-				<div class="bottomMain"></div>
-			
-			</div>
-			
-			<div class="sideBlock"></div>
-		
-		</div>
-
-		
-	</body>
-
+.rightsquare
+{
+width:15vw;
+float: right;
+height:15vw;
+background-color:#0700B5;
+margin: 0px 0px 0px 4px;
+</style>
+</head>
+<body>
+<div name="toppage" style="width:50vw; height:12vw; background-color:#0500B3"></div>
+<div class="Divide"></div>
+<div class="post">
+	<div class="mainBlock">
+		<div class="maintext"></div>
+		<div class="bottom"></div>
+	</div>
+	<div class="rightsquare"></div>
+</div>
+<div class="Divide"></div>
+<div class="post">
+<div class="mainBlock">
+	<div class="maintext"></div>
+	<div class="bottom"></div>
+</div>
+<div class="rightsquare"></div>
+</div>
+</body>
 </html>
